@@ -116,7 +116,11 @@ h2 {
   margin: 30px;
   word-wrap: normal;
   display: inline-block;
-  width: 400px;
+  width: 500px;
+}
+
+.openingParagraph p {
+  line-height: 1.5;
 }
 
 .audiImageDiv {
