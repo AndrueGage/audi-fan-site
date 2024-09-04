@@ -9,7 +9,8 @@ export default function AudiGif() {
             </div>
             <div className="audiContainer">
                 <div className="openingParagraph">
-                    <p>This is the audi information</p>
+                    <h2>5-Cylinder History</h2>
+                    <p>text goes here</p>
                 </div>
                 <div className="audiImageDiv">
                     <Image

@@ -86,7 +86,8 @@ body {
 }
 
 body {
-  
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .title {
@@ -106,16 +107,20 @@ body {
 
 }
 
+h2 {
+  font-size: 28px;
+}
+
 .openingParagraph{
-  
+  margin: 30px;
   word-wrap: normal;
 }
 
 .audiImageDiv {
-  width: 1400px;
+  width: 700px;
   display: flex;
   align-self: flex-start;
-  margin: 20px;
+  margin: 30px;
   border-radius: 25px;
   object-fit: fill;
 } 
@@ -133,6 +138,7 @@ nav div {
   justify-content: center;
   text-align: center;
   align-items: center;
+  border-radius: 0px 0px 10px 10px;
 }
 
 
