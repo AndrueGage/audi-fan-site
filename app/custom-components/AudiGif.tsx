@@ -3,14 +3,24 @@ import audiGif from "../../public/audi_combo_gif.gif"
 
 export default function AudiGif() {
     return (
-        <div>
-            <Image
-                src={audiGif}
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{ width: '100%', height: '100%' }} 
-                alt="gif of the famous 5 cylinder audis" />
-        </div>
+        <section>
+            <div>
+                <h1 className="title">Audi Motor Sports Excellence</h1>
+            </div>
+            <div className="audiContainer">
+                <div className="openingParagraph">
+                    <p>This is the audi information</p>
+                </div>
+                <div className="audiImageDiv">
+                    <Image
+                        src={audiGif}
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: 'auto' }}
+                        alt="gif of the famous 5 cylinder audis" />
+                </div>
+            </div>
+        </section>
     )
 }

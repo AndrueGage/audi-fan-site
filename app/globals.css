@@ -89,6 +89,37 @@ body {
   
 }
 
+.title {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 32px;
+  margin-top: 8px;
+}
+
+.audiContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+.openingParagraph{
+  
+  word-wrap: normal;
+}
+
+.audiImageDiv {
+  width: 1400px;
+  display: flex;
+  align-self: flex-start;
+  margin: 20px;
+  border-radius: 25px;
+  object-fit: fill;
+} 
+
 .audiLogo {
   display: flex;
   justify-content: flex-start;
