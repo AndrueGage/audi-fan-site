@@ -104,16 +104,19 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-
+  margin: 30px;
 }
 
 h2 {
   font-size: 28px;
+  margin-bottom: 15px;
 }
 
 .openingParagraph{
   margin: 30px;
   word-wrap: normal;
+  display: inline-block;
+  width: 400px;
 }
 
 .audiImageDiv {
