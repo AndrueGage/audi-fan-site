@@ -5,7 +5,7 @@ export default function AudiGif() {
     return (
         <section>
             <div>
-                <h1 className="title">Audi Motor Sports Excellence</h1>
+                <h1 className="title">Audi MotorSports Excellence</h1>
             </div>
             <div className="audiContainer">
             <div className="openingParagraph">
