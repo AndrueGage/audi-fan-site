@@ -1,5 +1,6 @@
 import groupB1 from '../../public/audiQuattroGroupB.png';
 import groupB2 from '../../public/audiQuattroGroupB2.png';
+// import audioFile from '../../public/'
 import Image from 'next/image';
 
 const groupBImg = {
@@ -25,8 +26,8 @@ export default function GroupB() {
                         <div key={key}>
                             <div className='groupBImage'>
                                 <Image priority src={src} alt={alt} height={0} width={0} style={{ width: '80%', height: 'auto' }} />
-                                <audio src="../../public/Audi Quattro.mp3"></audio>
                             </div>
+                            <audio>Your browser does not support the audio element.</audio>
                         </div>
                     ))}
                 </div>
