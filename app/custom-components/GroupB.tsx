@@ -27,7 +27,7 @@ export default function GroupB() {
                             <div className='groupBImage'>
                                 <Image priority src={src} alt={alt} height={0} width={0} style={{ width: '80%', height: 'auto' }} />
                             </div>
-                            <audio src={s1}>Your browser does not support the audio element.</audio>
+                            {/* <audio src={s1}>Your browser does not support the audio element.</audio> */}
                         </div>
                     ))}
                 </div>
