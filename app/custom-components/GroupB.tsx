@@ -1,14 +1,16 @@
 import useSound from 'use-sound';
 import groupB1 from '../../public/audiQuattroGroupB.png';
 import groupB2 from '../../public/audiQuattroGroupB2.png';
-import s1 from '../../public/sounds/AudiQuattro.mp3';
+// import s1 from '../../public/sounds/AudiQuattro.mp3';
 import Image from 'next/image';
 
-const EngineButton = () => {
-    const [play] = useSound(s1);
-    const handleClick = () => play();
-    return <button onClick={handleClick}>Engine Sound</button>;
-  };
+
+
+// const EngineButton = () => {
+//     const [play] = useSound(s1);
+//     const handleClick = () => play();
+//     return <button onClick={handleClick}>Engine Sound</button>;
+//   };
 
 const groupBImg = {
     AudiS1: { src: groupB1, alt: 'Audi S1 Car' },
@@ -34,7 +36,7 @@ export default function GroupB() {
                             <div className='groupBImage'>
                                 <Image priority src={src} alt={alt} height={0} width={0} style={{ width: '80%', height: 'auto' }} />
                             </div>
-                            <EngineButton />
+                            {/* <EngineButton /> */}
                         </div>
                     ))}
                 </div>
