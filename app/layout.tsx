@@ -6,6 +6,7 @@ import AudiGif from "./custom-components/AudiGif";
 import GroupB from "./custom-components/GroupB";
 import AudiRS2 from "./custom-components/AudiRS2"
 import AudiRS3 from "./custom-components/AudiRS3";
+import AudiTTRS from "./custom-components/AudiTTRS";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -28,6 +29,7 @@ export default function RootLayout({
       <GroupB />
       <AudiRS2 />
       <AudiRS3 />
+      <AudiTTRS />
       </body>
     </html>
   );
