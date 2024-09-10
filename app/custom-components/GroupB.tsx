@@ -1,21 +1,18 @@
+'use client'
+
 import useSound from 'use-sound';
-import groupB1 from '../../public/audiQuattroGroupB.png';
-import groupB2 from '../../public/audiQuattroGroupB2.png';
-// import s1 from '../../public/sounds/AudiQuattro.mp3';
 import Image from 'next/image';
 
-
-
-// const EngineButton = () => {
-//     const [play] = useSound(s1);
-//     const handleClick = () => play();
-//     return <button onClick={handleClick}>Engine Sound</button>;
-//   };
+const EngineButton = () => {
+    const [play] = useSound('/sounds/audiQuattro.mp3');
+    const handleClick = () => play();
+    return <button onClick={handleClick}>Engine Sound</button>;
+};
 
 const groupBImg = {
-    AudiS1: { src: groupB1, alt: 'Audi S1 Car' },
-    AudiS1_2: { src: groupB2, alt: 'Audi S1 Car' }
-}
+    AudiS1: { src: '/audiQuattroGroupB.png', alt: 'Audi S1 Car' },
+    AudiS1_2: { src: '/audiQuattroGroupB2.png', alt: 'Audi S1 Car' }
+};
 
 export default function GroupB() {
     return (
@@ -34,9 +31,9 @@ export default function GroupB() {
                     {Object.entries(groupBImg).map(([key, { src, alt }]) => (
                         <div key={key}>
                             <div className='groupBImage'>
-                                <Image priority src={src} alt={alt} height={0} width={0} style={{ width: '80%', height: 'auto' }} />
+                                <Image priority src={src} alt={alt} height={500} width={500} style={{ width: '80%', height: 'auto' }} />
                             </div>
-                            {/* <EngineButton /> */}
+                            <EngineButton />
                         </div>
                     ))}
                 </div>

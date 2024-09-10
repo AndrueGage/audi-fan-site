@@ -1,5 +1,5 @@
 import Image from "next/image"
-import audiGif from "../../public/audi_combo_gif.gif"
+import audiGif from "/public/audi_combo_gif.gif"
 
 export default function AudiGif() {
     return (
@@ -15,8 +15,8 @@ export default function AudiGif() {
                 <div className="audiImageDiv">
                     <Image
                         src={audiGif}
-                        width={0}
-                        height={0}
+                        width={500}
+                        height={500}
                         sizes="100vw"
                         style={{ width: '100%', height: 'auto' }}
                         alt="gif of the famous 5 cylinder audis" />
