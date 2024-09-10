@@ -4,9 +4,8 @@ import useSound from 'use-sound';
 import Image from 'next/image';
 
 const EngineButton = () => {
-    const [play] = useSound('/sounds/audiQuattro.mp3');
-    const handleClick = () => play();
-    return <button onClick={handleClick}>Engine Sound</button>;
+    const [play, { stop }]= useSound('/sounds/audiQuattro.mp3');
+    return <button onMouseEnter={() => play()} onMouseLeave={() => stop()}>Engine Sound</button>;
 };
 
 const groupBImg = {
