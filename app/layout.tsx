@@ -5,6 +5,7 @@ import Navbar from "./custom-components/Navbar";
 import AudiGif from "./custom-components/AudiGif";
 import GroupB from "./custom-components/GroupB";
 import AudiRS2 from "./custom-components/AudiRS2"
+import AudiRS3 from "./custom-components/AudiRS3";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -26,6 +27,7 @@ export default function RootLayout({
       <AudiGif />
       <GroupB />
       <AudiRS2 />
+      <AudiRS3 />
       </body>
     </html>
   );
