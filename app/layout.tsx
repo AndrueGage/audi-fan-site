@@ -3,6 +3,10 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./custom-components/Navbar";
 import AudiGif from "./custom-components/AudiGif";
+import GroupB from "./custom-components/GroupB";
+import AudiRS2 from "./custom-components/AudiRS2"
+import AudiRS3 from "./custom-components/AudiRS3";
+import AudiTTRS from "./custom-components/AudiTTRS";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -22,6 +26,10 @@ export default function RootLayout({
       <body className={inter.className}>{children}
       <Navbar/>
       <AudiGif />
+      <GroupB />
+      <AudiRS2 />
+      <AudiRS3 />
+      <AudiTTRS />
       </body>
     </html>
   );

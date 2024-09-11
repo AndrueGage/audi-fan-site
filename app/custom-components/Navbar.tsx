@@ -1,5 +1,5 @@
 import Image from "next/image"
-import audiLogo from "../../public/old_audi_logo.png"
+import audiLogo from "/public/old_audi_logo.png"
 
 
 export default function Navbar() {
